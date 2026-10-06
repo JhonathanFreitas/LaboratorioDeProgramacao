@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.FormularioController" hgap="15" vgap="15" alignment="TOP_LEFT" styleClass="formulario">
+ <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+ <columnConstraints><ColumnConstraints minWidth="140"/><ColumnConstraints hgrow="ALWAYS"/></columnConstraints>
+ <children>
+  <Label text="Informe CPF:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+  <TextField fx:id="campoCpf" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+  <Label text="Nome:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+  <TextField fx:id="campoNome" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+  <Label text="Endereço:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+  <TextField fx:id="campoEndereco" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+  <Label text="Estado:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+  <ComboBox fx:id="comboEstado" maxWidth="Infinity" promptText="Selecione uma opção" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+  <Label text="Cargo:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+  <ComboBox fx:id="comboCargo" maxWidth="Infinity" promptText="Selecione uma opção" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+  <Button fx:id="botaoImprimir" text="Imprimir Dados" prefWidth="140" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+ </children>
+</GridPane>

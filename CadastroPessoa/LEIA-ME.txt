@@ -1,0 +1,35 @@
+FORMULÁRIO DE CADASTRO DE PESSOA — JAVAFX
+
+Requisitos: JDK 17 ou superior; Apache NetBeans com suporte a Maven.
+
+COMO ABRIR E EXECUTAR
+1. Extraia este ZIP.
+2. No NetBeans: Arquivo > Abrir Projeto.
+3. Selecione a pasta CadastroPessoa (que contém o pom.xml).
+4. Confira se a plataforma Java do projeto é JDK 17 ou superior.
+5. Clique com o botão direito no projeto > Run Maven > Goals.
+6. Digite: clean javafx:run
+Na primeira execução, a internet é necessária para baixar as dependências.
+Alternativa em um terminal na pasta do projeto: mvn clean javafx:run
+
+ARQUIVOS
+FormularioCadastro.java: inicia a aplicação, carrega FXML e CSS.
+FormularioController.java: define ObservableLists e o evento lambda do botão.
+formulario.fxml: interface organizada por linhas e colunas em GridPane.
+estilo.css: aparência do formulário.
+
+TESTE
+Preencha CPF, nome e endereço, selecione estado e cargo e clique em
+Imprimir Dados. Um Alert de informação apresenta os cinco valores.
+Se não selecionar estado/cargo, a mensagem exibe Não selecionado.
+Os dados não são salvos em banco de dados, conforme o escopo da atividade.
+
+REQUISITOS ATENDIDOS
+Application, Stage, Scene, GridPane, Label, TextField, ComboBox, Button,
+Alert, ObservableList e expressão lambda no evento do botão.
+
+CAPTURAS E VERIFICAÇÃO
+As imagens em capturas foram obtidas da aplicação JavaFX executada
+em ambiente gráfico virtual, sem a decoração de janelas do Windows.
+Verificados: carregamento FXML/CSS e clique no botão com os cinco valores
+do exemplo. Para uma captura no seu computador, execute e use Win+Shift+S.

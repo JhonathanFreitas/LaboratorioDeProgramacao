@@ -1,0 +1,16 @@
+.formulario {
+    -fx-background-color: #eeeeee;
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+}
+.label { -fx-text-fill: #222222; }
+.text-field, .combo-box { -fx-pref-height: 28px; }
+.button {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #cbddea);
+    -fx-border-color: #8a9eae;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-text-fill: #222222;
+    -fx-cursor: hand;
+}
+.button:hover { -fx-background-color: #bdd9ed; }
