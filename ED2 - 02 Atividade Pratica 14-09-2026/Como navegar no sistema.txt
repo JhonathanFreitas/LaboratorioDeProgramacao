@@ -1,0 +1,19 @@
+Esses são os principais caminhos para navegar e utilizar o sistema.
+
+1. Ao abrir o sistema, será exibida a tela principal.
+
+2. No menu Arquivo:
+	- Novo: abre a tela de cadastro de cliente.
+	- Sair: encerra o sistema.
+
+3. Cadastrar um cliente - Para acessar o cadastro, clique em Arquivo > Novo. Na tela “Cadastro de Cliente”, preencha os campos:
+	- Nome
+	- E-mail
+	- Telefone
+Depois, clique em Salvar. O sistema exibirá a mensagem “Cliente salvo com sucesso!”. Para voltar à tela inicial, clique em Fechar.
+
+4. Menu Relatório - O menu Relatório possui duas opções:
+	- Cliente: exibe a mensagem “Relatório de clientes”.
+	- Fornecedor: exibe a mensagem “Relatório de fornecedores”.
+
+5. Menu Sobre - Clique em Sobre > Info para visualizar as informações do autor do sistema. Atualmente, é exibida a mensagem “Aluno: Jhonathan”.
